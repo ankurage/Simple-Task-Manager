@@ -40,7 +40,6 @@ void main() async {
       box.delete(i);
     }
   }
-  box.clear();
   runApp(
     ChangeNotifierProvider(
       create: (context) => BoxProvider(),
